@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: DaSilva-light;
-    src: url(/fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-Medium.ttf);
+    src: url(/fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-Thin.ttf)
 }
 body {
     font-family: DaSilva-light;
@@ -25,6 +25,7 @@ body {
     border-radius: 10px;
     padding: 1rem;
     background-color: hsl(263, 55%, 52%);
+    position: relative;
     img {
         border-radius: 999px;
         border: 3px solid hsl(264, 82%, 80%);
@@ -40,8 +41,17 @@ body {
         margin-top: 15px;
         color: hsl(214, 17%, 92%);
         font-size: 13px;
-        font-weight: 400;
+        font-weight: 600;
     }
+.quotation {
+    border: none;
+    border-radius: 0%;
+    width: 80px;
+    position: absolute;
+    right: 50px;
+    top: 1px;
+    display: none;
+}
 }
 .avatar {
     display: flex;
@@ -56,11 +66,12 @@ body {
 .names {
     color: hsl(214, 17%, 92%);
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .verified {
     color: hsl(214, 17%, 92%);
     font-size: 12px;
+    font-weight: 600;
 }
 
 .jonathan-card {
@@ -83,7 +94,7 @@ body {
         margin-top: 15px;
         color: hsl(214, 17%, 92%);
         font-size: 13px;
-        font-weight: 500;
+        font-weight: 600;
     }
 }
 
@@ -107,16 +118,18 @@ body {
         margin-top: 15px;
         color: hsl(217, 19%, 35%);
         font-size: 13px;
-        font-weight: 500;
+        font-weight: 600;
     }
 }
 .names-j {
     color: hsl(217, 19%, 35%);
     font-size: 15px;
+    font-weight: 600;
 }
 .verified-j {
     color: hsl(217, 19%, 35%);
     font-size: 13px;
+    font-weight: 600;
 }
 
 .patrick-card {
@@ -139,7 +152,7 @@ body {
         margin-top: 15px;
         color: hsl(0, 0%, 100%);
         font-size: 13px;
-        font-weight: 500;
+        font-weight: 600;
     }
 }
 
@@ -157,13 +170,13 @@ body {
         margin-top: 20px;
         color: hsl(217, 19%, 35%);
         font-size: 20px;
-        font-weight: 800;
+        font-weight: 600;
     }
     .paragraph-10 {
         margin-top: 15px;
         color: hsl(217, 19%, 35%);
         font-size: 13px;
-        font-weight: 500;
+        font-weight: 600;
     }
 }
 
@@ -174,6 +187,9 @@ body {
     .daniel-card {
         grid-column-start: 1;
         grid-column: 1 / span 2;
+        .quotation {
+            display: block;
+        }
     }
      .jonathan-card {
         grid-row: 1;
