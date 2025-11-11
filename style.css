@@ -14,16 +14,16 @@ body {
 }
 .grid-container {
     margin: 30px auto;
-    width: 400px;
-    max-width: 100%;
-    filter: drop-shadow(1px 1px 3px hsl(0, 3%, 78%));
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    filter: drop-shadow(1px 1px 4px hsl(0, 3%, 78%));
 }
 .daniel-card {
-    width: 400px;
-    max-width: 100%;
     border: 1px solid hsl(263, 55%, 52%);
     border-radius: 10px;
-    padding: 30px;
+    padding: 1rem;
     background-color: hsl(263, 55%, 52%);
     img {
         border-radius: 999px;
@@ -64,12 +64,9 @@ body {
 }
 
 .jonathan-card {
-    width: 400px;
-    max-width: 100%;
     border: 1px solid hsl(224, 10%, 45%);
-    margin-top: 30px;
     border-radius: 10px;
-    padding: 30px;
+    padding: 1rem;
     background-color: hsl(217, 19%, 35%);
     img {
         border-radius: 999px;
@@ -91,12 +88,9 @@ body {
 }
 
 .jeanette-card {
-    width: 400px;
-    max-width: 100%;
     border: 1px solid hsl(0, 0%, 100%);
-    margin-top: 30px;
     border-radius: 10px;
-    padding: 30px;
+    padding: 1rem;
     background-color: hsl(0, 0%, 100%);
     img {
         border-radius: 999px;
@@ -126,12 +120,9 @@ body {
 }
 
 .patrick-card {
-    width: 400px;
-    max-width: 100%;
     border: 1px solid hsl(217, 19%, 35%);
-    margin-top: 30px;
     border-radius: 10px;
-    padding: 30px;
+    padding: 1rem;
     background-color: hsl(217, 19%, 35%);
     img {
         border-radius: 999px;
@@ -153,12 +144,9 @@ body {
 }
 
 .kira-card {
-    width: 400px;
-    max-width: 100%;
     border: 1px solid hsl(0, 0%, 100%);
-    margin-top: 30px;
     border-radius: 10px;
-    padding: 30px;
+    padding: 1rem;
     background-color: hsl(0, 0%, 100%);
     img {
         border-radius: 999px;
@@ -181,7 +169,26 @@ body {
 
 @media (min-width: 768px) {
     .grid-container {
-        display: grid;
-        grid-template-columns: repeat(5, auto);
+        grid-template-columns: repeat(4, 1fr);
     }
+    .daniel-card {
+        grid-column-start: 1;
+        grid-column: 1 / span 2;
+    }
+     .jonathan-card {
+        grid-row: 1;
+        grid-column: 3;
+    }
+    .jeanette-card {
+        grid-row: 2;
+        grid-column: 1;
+    }
+    .patrick-card {
+        grid-row: 2;
+        grid-column: 2 / span 2;
+    }
+    .kira-card {
+        grid-column-start: 4;
+        grid-row: 1 / span 2;
+    } 
 }
