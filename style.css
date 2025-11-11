@@ -50,15 +50,17 @@ body {
 }
 .nomenclature {
     display: grid;
-    gap: 5px;
+    gap: 2px;
 }
 
 .names {
     color: hsl(0, 0%, 100%);
-    /* font-weight: 500; */
+    font-size: 15px;
+    font-weight: 500;
 }
 .verified {
     color: hsl(0, 0%, 100%);
+    font-size: 12px;
 }
 
 .jonathan-card {
@@ -116,9 +118,11 @@ body {
 }
 .names-j {
     color: hsl(217, 19%, 35%);
+    font-size: 15px;
 }
 .verified-j {
     color: hsl(217, 19%, 35%);
+    font-size: 13px;
 }
 
 .patrick-card {
