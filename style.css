@@ -10,6 +10,7 @@
 body {
     font-family: DaSilva-light;
     background-color: hsl(214, 17%, 92%);
+    padding: 20px;
 }
 .grid-container {
     margin: 30px auto;
