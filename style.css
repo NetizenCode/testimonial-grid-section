@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: DaSilva-light;
+    src: url(/fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-Medium.ttf);
+}
+body {
+    font-family: DaSilva-light;
+    background-color: hsl(214, 17%, 92%);
+}
+.grid-container {
+    margin: 30px auto;
+    width: 300px;
+    filter: drop-shadow(1px 1px 3px hsl(0, 3%, 78%));
+}
+.daniel-card {
+    width: 300px;
+    border: 1px solid hsl(263, 55%, 52%);
+    border-radius: 10px;
+    padding: 30px;
+    background-color: hsl(263, 55%, 52%);
+    img {
+        border-radius: 999px;
+        border: 3px solid hsl(264, 82%, 80%);
+        width: 40px;
+    }
+    .paragraph-1 {
+        margin-top: 20px;
+        color: hsl(0, 0%, 100%);
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .paragraph-2 {
+        margin-top: 15px;
+        color: hsl(0, 0%, 100%);
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nomenclature {
+    display: grid;
+    gap: 5px;
+}
+
+.names {
+    color: hsl(0, 0%, 100%);
+    /* font-weight: 500; */
+}
+.verified {
+    color: hsl(0, 0%, 100%);
+}
+
+.jonathan-card {
+    width: 300px;
+    border: 1px solid hsl(224, 10%, 45%);
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: hsl(217, 19%, 35%);
+    img {
+        border-radius: 999px;
+        border: 3px solid hsl(0, 0%, 100%);
+        width: 40px;
+    }
+    .paragraph-3 {
+        margin-top: 20px;
+        color: hsl(0, 0%, 100%);
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .paragraph-4 {
+        margin-top: 15px;
+        color: hsl(214, 17%, 92%);
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+
+.jeanette-card {
+    width: 300px;
+    border: 1px solid hsl(0, 0%, 100%);
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: hsl(0, 0%, 100%);
+    img {
+        border-radius: 999px;
+        border: 3px solid hsl(214, 17%, 92%);
+        width: 40px;
+    }
+    .paragraph-5 {
+        margin-top: 20px;
+        color: hsl(217, 19%, 35%);
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .paragraph-6 {
+        margin-top: 15px;
+        color: hsl(217, 19%, 35%);
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+.names-j {
+    color: hsl(217, 19%, 35%);
+}
+.verified-j {
+    color: hsl(217, 19%, 35%);
+}
+
+.patrick-card {
+    width: 300px;
+    border: 1px solid hsl(217, 19%, 35%);
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: hsl(217, 19%, 35%);
+    img {
+        border-radius: 999px;
+        border: 3px solid hsl(263, 55%, 52%);
+        width: 40px;
+    }
+    .paragraph-7 {
+        margin-top: 20px;
+        color: hsl(0, 0%, 100%);
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .paragraph-8 {
+        margin-top: 15px;
+        color: hsl(0, 0%, 100%);
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+
+.kira-card {
+    width: 300px;
+    border: 1px solid hsl(0, 0%, 100%);
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: hsl(0, 0%, 100%);
+    img {
+        border-radius: 999px;
+        border: 3px solid hsl(214, 17%, 92%);
+        width: 40px;
+    }
+    .paragraph-9 {
+        margin-top: 20px;
+        color: hsl(217, 19%, 35%);
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .paragraph-10 {
+        margin-top: 15px;
+        color: hsl(217, 19%, 35%);
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+    }
+}
