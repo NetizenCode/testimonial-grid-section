@@ -13,11 +13,12 @@ body {
 }
 .grid-container {
     margin: 30px auto;
-    width: 300px;
+    width: 400px;
     filter: drop-shadow(1px 1px 3px hsl(0, 3%, 78%));
 }
 .daniel-card {
-    width: 300px;
+    width: 400px;
+    max-width: 100%;
     border: 1px solid hsl(263, 55%, 52%);
     border-radius: 10px;
     padding: 30px;
@@ -59,7 +60,8 @@ body {
 }
 
 .jonathan-card {
-    width: 300px;
+    width: 400px;
+    max-width: 100%;
     border: 1px solid hsl(224, 10%, 45%);
     margin-top: 30px;
     border-radius: 10px;
@@ -85,7 +87,8 @@ body {
 }
 
 .jeanette-card {
-    width: 300px;
+    width: 400px;
+    max-width: 100%;
     border: 1px solid hsl(0, 0%, 100%);
     margin-top: 30px;
     border-radius: 10px;
@@ -117,7 +120,8 @@ body {
 }
 
 .patrick-card {
-    width: 300px;
+    width: 400px;
+    max-width: 100%;
     border: 1px solid hsl(217, 19%, 35%);
     margin-top: 30px;
     border-radius: 10px;
@@ -143,7 +147,8 @@ body {
 }
 
 .kira-card {
-    width: 300px;
+    width: 400px;
+    max-width: 100%;
     border: 1px solid hsl(0, 0%, 100%);
     margin-top: 30px;
     border-radius: 10px;
