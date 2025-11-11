@@ -10,11 +10,12 @@
 body {
     font-family: DaSilva-light;
     background-color: hsl(214, 17%, 92%);
-    padding: 20px;
+    padding: 30px;
 }
 .grid-container {
     margin: 30px auto;
     width: 400px;
+    max-width: 100%;
     filter: drop-shadow(1px 1px 3px hsl(0, 3%, 78%));
 }
 .daniel-card {
